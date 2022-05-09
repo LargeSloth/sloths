@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: bisque;
+}
+
+.slothheader {
+    justify-content: center;
+    text-align: center;
+    font-size: 21px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #5e574e;
+    border: 3px solid grey;
+    padding: 5px;
+    margin: 5px;
+}
+
+.typesofsloth {
+    display: flex;
+    flex-direction: row;  
+}
+
+.typesofsloth div {
+    flex: auto; 
+    width: 600px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 3px solid gray;
+    background-color: #5e574e;
+}
+
+.giantgroundsloth, .threetoedsloth, .twotoedsloth {
+    margin: 5px;
+    padding-bottom: 30px;
+}
+
+.factsofsloth {
+    display: flex;
+    flex-direction: row;
+}
+
+.factsofsloth div {
+    flex: auto;
+    width: 600px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border: 3px solid gray;
+    background-color: #5e574e;
+}
+
+.factsofgiant, .factsofthree, .factsoftwo {
+    margin: 5px;
+}
